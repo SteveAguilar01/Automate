@@ -1,4 +1,4 @@
-#This is the first lesson from Automate the boring stuff with Python
+#This is the first section from Automate the boring stuff with Python
 #For now it will start simple and we will slowly build upon this while pushing to the github repo
 
 #Create a variable
