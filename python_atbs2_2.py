@@ -1,6 +1,7 @@
-#This is the second section, 5th lesson from Automate the boring stuff with Python
+#This is the second section, 6th lesson from Automate the boring stuff with Python
 #The lesson will focus on if, else, and elif statements
 
+# 
 #Set variable for name
 #Compare the name to another name with if
 
@@ -17,6 +18,7 @@ print('Done')
 print("This Tony or Bob?")
 name = input()
 
+#if Tony print Howdy Tony or elif Bob print Howdy Bob and if both fail else statement will print
 #Lets try it out!
 #Side note - we have not put in a way to capture if a person enters name in lowercase
 #Therefore tony will not work and must be entered case sensitive for purpose of demo
