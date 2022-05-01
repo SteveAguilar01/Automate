@@ -1,34 +1,27 @@
-#This is the second section, 6th lesson from Automate the boring stuff with Python
-#The lesson will focus on if, else, and elif statements
-
-# 
-#Set variable for name
-#Compare the name to another name with if
-
-name = "Tony"
-if name == "Tony":
-    print("Howdy Tony!")
-print('Done')
-
-#Notice because name did equal Tony we get Howdy Tony from if statement 
+#This is the second section, 6th and 7th lesson from Automate the boring stuff with Python
+#The lesson will focus on while and for loops
 
 
-#Lets add to our previous idea with else statement and some user input
-#Ask user question then store their input to variable name
-print("This Tony or Bob?")
-name = input()
+#Set variable for spam
+spam = 0
+while spam < 5:
+    print('I am spam')
+    spam = spam + 1
 
-#if Tony print Howdy Tony or elif Bob print Howdy Bob and if both fail else statement will print
-#Lets try it out!
-#Side note - we have not put in a way to capture if a person enters name in lowercase
-#Therefore tony will not work and must be entered case sensitive for purpose of demo
+#While spam is less than 5 add 1 - this will loop when the condition is true
+#Once spam is no longer less than 5 it is false and then stop
+#Spam variable is being added to from 0 - this is call an iteration 
 
-if name == "Tony":
-    print("Howdy Tony!")
-elif name == "Bob":
-    print("Howdy Bob!")
-else:
-    print("If you ain't Tony or Bob - who are you??")
 
-#Important note the order of if and elif statements does matter
-#Once one of them comes back as True it will skip the rest of lines going from top to bottom
+
+#Lets try this as a joke loop - we ask the user literally for 'your name'
+#Also lets give the user a little hint with an if statement they still put in the wrong answer
+
+name = ''
+while name != 'your name':
+    print ('Please type "your name"')
+    name = input()
+    
+    if name != 'your name':
+        print('Think about what I am really asking :-)')
+print ("Hehe good job!")
