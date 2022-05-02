@@ -9,8 +9,9 @@ This repo will be covering the book and Udemy video course in order to help not 
 
 <h2>Languages and Tools Used</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>Python3</b> 
+- <b>VisualStudioCode</b>
+- <b>GitBash</b>
 
 <h2>Environments Used </h2>
 
