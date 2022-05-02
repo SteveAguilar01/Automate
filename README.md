@@ -15,4 +15,4 @@ This repo will be covering the book and Udemy video course in order to help not 
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>Windows 10</b>
